@@ -3,4 +3,4 @@ Basics python
 
 
 Any one want to help:-
-email-abhithakur15102@gmail.com
+abhithakur15102@gmail.com
