@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 21 15:30:05 2019
+
+@author: Abhi
+"""
+
+def fun(z):
+    
+    size=len(z)
+    item=[]
+    k=0
+    for i in range(size):
+        k=i+1
+        for j in range(k,size):
+            if z[i]==z[j] and z[i] not in item:
+            
+                item.append(z[i])
+    return item
+    
+    
+    
+    
+    
+    
+list1=[10,20,30,40,8,8,5,7,6,20,10]
+
+print(fun(list1))
